@@ -44,7 +44,7 @@ const Index = () => {
             <CardContent className="p-4">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-sm font-medium text-muted-foreground">Today's Mood</p>
+                  <p className="text-sm font-medium text-black">Today's Mood</p>
                   <p className="text-2xl font-bold">😊</p>
                 </div>
                 <Activity className="w-8 h-8 text-wellness-primary animate-float" />
@@ -56,7 +56,7 @@ const Index = () => {
             <CardContent className="p-4">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-sm font-medium text-muted-foreground">Medications</p>
+                  <p className="text-sm font-medium text-black">Medications</p>
                   <p className="text-2xl font-bold">2/3</p>
                 </div>
                 <Pill className="w-8 h-8 text-wellness-secondary animate-float" />
@@ -68,7 +68,7 @@ const Index = () => {
             <CardContent className="p-4">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-sm font-medium text-muted-foreground">Entries</p>
+                  <p className="text-sm font-medium text-black">Entries</p>
                   <p className="text-2xl font-bold">12</p>
                 </div>
                 <Calendar className="w-8 h-8 text-wellness-accent animate-float" />

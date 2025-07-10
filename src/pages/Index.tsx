@@ -80,17 +80,17 @@ const Index = () => {
         {/* Main Tabs */}
         <Tabs value={activeTab} onValueChange={setActiveTab} className="space-y-6">
           <TabsList className="grid w-full grid-cols-3 bg-white/50 backdrop-blur-sm border border-wellness-primary/20">
-            <TabsTrigger value="diary" className="flex items-center space-x-2 data-[state=active]:bg-wellness-primary data-[state=active]:text-white">
+            <TabsTrigger value="diary" className="flex items-center space-x-2 data-[state=active]:bg-wellness-primary data-[state=active]:text-white text-black">
               <Heart className="w-4 h-4" />
               <span className="hidden sm:inline">Wellness Diary</span>
               <span className="sm:hidden">Diary</span>
             </TabsTrigger>
-            <TabsTrigger value="chatbot" className="flex items-center space-x-2 data-[state=active]:bg-wellness-secondary data-[state=active]:text-white">
+            <TabsTrigger value="chatbot" className="flex items-center space-x-2 data-[state=active]:bg-wellness-secondary data-[state=active]:text-white text-black">
               <MessageCircle className="w-4 h-4" />
               <span className="hidden sm:inline">Mental Health</span>
               <span className="sm:hidden">Chat</span>
             </TabsTrigger>
-            <TabsTrigger value="clinics" className="flex items-center space-x-2 data-[state=active]:bg-wellness-accent data-[state=active]:text-white">
+            <TabsTrigger value="clinics" className="flex items-center space-x-2 data-[state=active]:bg-wellness-accent data-[state=active]:text-white text-black">
               <MapPin className="w-4 h-4" />
               <span className="hidden sm:inline">Clinic Finder</span>
               <span className="sm:hidden">Clinics</span>

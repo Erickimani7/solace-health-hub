@@ -97,15 +97,15 @@ const Index = () => {
             </TabsTrigger>
           </TabsList>
 
-          <TabsContent value="diary" className="space-y-6">
+          <TabsContent value="diary" className="space-y-6 bg-black p-6 rounded-lg">
             <WellnessDiary />
           </TabsContent>
 
-          <TabsContent value="chatbot" className="space-y-6">
+          <TabsContent value="chatbot" className="space-y-6 bg-black p-6 rounded-lg">
             <MentalHealthChatbot />
           </TabsContent>
 
-          <TabsContent value="clinics" className="space-y-6">
+          <TabsContent value="clinics" className="space-y-6 bg-black p-6 rounded-lg">
             <ClinicFinder />
           </TabsContent>
         </Tabs>

@@ -1,73 +1,58 @@
-# Welcome to your Lovable project
+# 🌿 WellnessConnect – A Personal Health & Support Companion
 
-## Project info
+**WellnessConnect** is a Flutter-based mobile app designed to support **UN Sustainable Development Goal 3: Good Health and Well-being**.  
+It empowers users to monitor their physical and mental health, stay on track with medications, access emotional support, and locate affordable or free clinics nearby.
 
-**URL**: https://lovable.dev/projects/850d711b-7719-4675-9dd1-8f1949e80c7e
+---
 
-## How can I edit this code?
+## ✨ Features
 
-There are several ways of editing your application.
+### 📝 Wellness Diary
+- Log daily moods using emojis or color tags
+- Record vital signs (e.g., heart rate, sleep hours, blood pressure)
+- Set and receive medicine reminders
 
-**Use Lovable**
+### 💬 Mental Health Chatbot
+- Conversational chatbot to offer emotional support
+- Mental health tips and stress-reducing techniques
+- Connect users with professional counselors and helplines
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/850d711b-7719-4675-9dd1-8f1949e80c7e) and start prompting.
+### 🏥 Clinic Finder
+- Locate nearby affordable or free clinics using geolocation
+- View clinic details, services, and user reviews
+- Navigate to clinics via Google Maps or in-app routing
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🚀 Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
+- Flutter SDK (version >= 3.10)
+- Dart SDK
+- Android Studio or VS Code
+- Firebase (for optional backend support)
+- Google Maps API key (for Clinic Finder)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation
 
-Follow these steps:
+1. Clone the repository:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```bash
+git clone https://github.com/your-username/wellnessconnect.git
+cd wellnessconnect
+flutter pub get
+flutter run
+lib/
+├── main.dart
+├── screens/
+│   ├── home.dart
+│   ├── wellness_diary.dart
+│   ├── chatbot.dart
+│   └── clinic_finder.dart
+├── models/
+├── services/
+└── widgets/
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/850d711b-7719-4675-9dd1-8f1949e80c7e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Would you like a logo, icons, or Flutter-specific setup instructions included too?
